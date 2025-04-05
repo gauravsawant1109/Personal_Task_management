@@ -192,7 +192,7 @@ const AllTask = () => {
                     </div>
                   </div>
                 </Link>
-                <div className="m-0 p-0 mb-4 d-flex justify-content-start">
+                <div className="m-0 p-0 mb-4 d-flex justify-content-start border rounded bg-danger-subtle p-2">
                   <button
                     className="btn btn-danger me-2"
                     onClick={() => deleteTask(task._id)}
